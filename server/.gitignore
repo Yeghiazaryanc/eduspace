@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables (արգելափակում է բոլոր .env ֆայլերը, ԲԱՅՑ թույլ է տալիս .env.example-ը)
+.env
+.env.*
+!.env.example
+
+# Logs & Test coverage
+*.log
+npm-debug.log*
+coverage/
+
+# OS & Editor artifacts
+.DS_Store
+.vscode/
+.idea/
+
+# Local uploaded files (եթե ավատարները պահվում են տեղային uploads ֆոլդերում)
+server/uploads/*
+!server/uploads/.gitkeep
