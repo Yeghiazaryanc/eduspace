@@ -81,7 +81,7 @@ eduspace/
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Yeghiazaryanc/](https://github.com/Yeghiazaryanc/)eduspace.git
+git clone https://github.com/Yeghiazaryanc/eduspace.git
 cd eduspace
 ```
 
